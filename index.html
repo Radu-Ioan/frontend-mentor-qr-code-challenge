@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .flashcard-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      height: max-content;
+      width: 300px;
+
+      text-align: center;
+
+      border-radius: 14px;
+      background-color: white;
+      font-family: 'Outfit', sans-serif;
+
+      box-shadow: 0px 0px 20px 4px hsl(218, 34%, 85%);
+
+      position: relative;
+    }
+
+    .top-container {
+      margin: 5%;
+      border-radius: 10px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .top-container img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 100%;
+      max-width: 100%;
+
+      border-radius: 10px;
+    }
+
+    .flashcard-container p {
+      margin: 10px 15px;
+    }
+
+    #title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+    }
+
+    #instruction {
+      font-size: 15px;
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+
+      padding-left: 14px;;
+      padding-right: 14px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flashcard-container">
+    <div class="top-container">
+      <img src="images/image-qr-code.png">
+    </div>
+    <p id="title">Improve your front-end skills by building projects</p>
+    <p id="instruction">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+</body>
+</html>
